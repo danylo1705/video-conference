@@ -1,0 +1,1799 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.container header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 150px;
+}
+
+.container header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header nav .logo p {
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+}
+
+.container header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 200px;
+}
+
+.container header nav ul li {
+  margin-right: 60px;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container header nav .header_buttons button {
+  width: 140px;
+  height: 55px;
+  border: none;
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.container header nav .header_buttons .sign_in {
+  color: #18216D;
+}
+
+.container header nav .header_buttons .download {
+  background: #18216D;
+  color: white;
+  border-radius: 6px;
+}
+
+.container header .header_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .header_content img {
+  margin-right: 100px;
+}
+
+.container header .header_content .header_txt {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.container header .header_content .header_txt h1 {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+}
+
+.container header .header_content .header_txt p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-top: 16px;
+}
+
+.container header .header_content .header_txt button {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+  width: 180px;
+  height: 66px;
+  background: #00ECD0;
+  border-radius: 6px;
+  border: none;
+  margin-top: 34px;
+}
+
+.container header .companies {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.container header .companies_upper {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .companies_upper .companies_title {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  width: 500px;
+}
+
+.container header .companies_upper .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .companies_upper .stats .downloads {
+  margin-right: 100px;
+}
+
+.container header .companies_upper .stats .downloads h2 {
+  font-family: 'Inter';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #18216D;
+}
+
+.container header .companies_upper .stats .downloads .hearts {
+  margin-top: 10px;
+}
+
+.container header .companies_upper .stats .downloads p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 10px;
+}
+
+.container header .companies_upper .stats .raiting h2 {
+  font-family: 'Inter';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #18216D;
+}
+
+.container header .companies_upper .stats .raiting p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 10px;
+}
+
+.container header .companies_upper .stats .raiting .stars {
+  margin-top: 10px;
+}
+
+.container header .companies_lower {
+  margin-top: 60px;
+}
+
+.container header .companies_lower .sponsors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .main .features {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.container .main .features_title {
+  margin: 0 auto;
+  width: 542px;
+}
+
+.container .main .features_title h2 {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #18216D;
+}
+
+.container .main .features_title p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+  margin-top: 12px;
+}
+
+.container .main .features_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .main .features_elements .element_frst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 320px;
+}
+
+.container .main .features_elements .element_frst h2 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 28px;
+}
+
+.container .main .features_elements .element_frst p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.6;
+  margin-top: 14px;
+  width: 320px;
+}
+
+.container .main .features_elements .element_frst h3 {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 30px;
+}
+
+.container .main .features_elements .element_frst img {
+  width: 72px;
+}
+
+.container .main .features_elements .element_scnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 320px;
+  margin-left: 80px;
+}
+
+.container .main .features_elements .element_scnd h2 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 28px;
+}
+
+.container .main .features_elements .element_scnd p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.6;
+  margin-top: 14px;
+  width: 320px;
+}
+
+.container .main .features_elements .element_scnd h3 {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 30px;
+}
+
+.container .main .features_elements .element_scnd img {
+  width: 55px;
+  height: 72px;
+}
+
+.container .main .features_elements .element_thrd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 320px;
+  margin-left: 80px;
+}
+
+.container .main .features_elements .element_thrd h2 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 28px;
+}
+
+.container .main .features_elements .element_thrd p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.6;
+  margin-top: 14px;
+  width: 320px;
+}
+
+.container .main .features_elements .element_thrd h3 {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 30px;
+}
+
+.container .main .features_elements .element_thrd img {
+  width: 72px;
+}
+
+.container .main .outlook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.container .main .outlook_txt {
+  width: 500px;
+}
+
+.container .main .outlook_txt h2 {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+}
+
+.container .main .outlook_txt p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+
+.container .main .outlook_txt button {
+  border: none;
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  width: 160px;
+  height: 52px;
+  background: #005FEC;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.container .main .outlook img {
+  width: 600px;
+}
+
+.container .main .comunication {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .comunication_img {
+  width: 450px;
+  height: 500px;
+  position: relative;
+  background-image: url(../img/comm_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.container .main .comunication_img .weekly {
+  position: absolute;
+  right: -100px;
+  bottom: -60px;
+}
+
+.container .main .comunication_content {
+  margin-left: 200px;
+}
+
+.container .main .comunication_content h2 {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  width: 500px;
+}
+
+.container .main .comunication_content .com_sub {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  width: 450px;
+  margin-top: 16px;
+}
+
+.container .main .comunication_content .benefits {
+  margin-top: 30px;
+}
+
+.container .main .comunication_content .benefits .benefit_frst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .comunication_content .benefits .benefit_frst p {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-left: 16px;
+}
+
+.container .main .comunication_content .benefits .benefit_scnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.container .main .comunication_content .benefits .benefit_scnd p {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-left: 16px;
+}
+
+.container .main .comunication_content .benefits .benefit_thrd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.container .main .comunication_content .benefits .benefit_thrd p {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-left: 16px;
+}
+
+.container .main .comunication_content button {
+  border: none;
+  width: 164px;
+  height: 54px;
+  background: #005FEC;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.container .main .prices {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.container .main .prices_title {
+  margin: 0 auto;
+}
+
+.container .main .prices_title h2 {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #18216D;
+}
+
+.container .main .prices_title p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 542px;
+}
+
+.container .main .prices_title .switcher {
+  width: 272px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #dfebff;
+  margin: 0 auto;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.container .main .prices_title .switcher p {
+  color: black;
+}
+
+.container .main .prices_title .switcher .annualy {
+  padding: 10px 10px;
+  background: white;
+  margin: auto 0;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #005FEC;
+  margin-left: 6px;
+}
+
+.container .main .prices_title .switcher .monthly {
+  margin: auto 0;
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+}
+
+.container .main .prices_subs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.container .main .prices_subs .basic {
+  width: 355px;
+  height: 620px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.container .main .prices_subs .basic_title h2 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 22px;
+  margin-left: 41px;
+}
+
+.container .main .prices_subs .basic_title p {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-left: 41px;
+}
+
+.container .main .prices_subs .basic .basic_line {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  opacity: 0.2;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .basic_benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 41px;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_frst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_frst p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_scnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_scnd p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_thrd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_thrd p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_four p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_five p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_six p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+  opacity: 0.5;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_seven {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .basic_benefits .benefit_basic_seven p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+  opacity: 0.5;
+}
+
+.container .main .prices_subs .basic button {
+  width: 181px;
+  height: 52px;
+  background: #e0edff;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #18216D;
+  border: none;
+  margin-left: 41px;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .pro {
+  width: 355px;
+  height: 620px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.container .main .prices_subs .pro_title h2 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 22px;
+  margin-left: 41px;
+}
+
+.container .main .prices_subs .pro_title p {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-left: 41px;
+}
+
+.container .main .prices_subs .pro_title p span {
+  color: #707070;
+}
+
+.container .main .prices_subs .pro .pro_line {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  opacity: 0.2;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .pro_benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 41px;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_frst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_frst p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_scnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_scnd p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_thrd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_thrd p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_four p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_five p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_six p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_seven {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .pro_benefits .benefit_pro_seven p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+  opacity: 0.5;
+}
+
+.container .main .prices_subs .pro button {
+  width: 181px;
+  height: 52px;
+  background: #005FEC;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-left: 41px;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .business {
+  width: 355px;
+  height: 620px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.container .main .prices_subs .business_title h2 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 22px;
+  margin-left: 41px;
+}
+
+.container .main .prices_subs .business_title p {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-left: 41px;
+}
+
+.container .main .prices_subs .business_title p span {
+  color: #707070;
+}
+
+.container .main .prices_subs .business .business_line {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  opacity: 0.2;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .business_benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 41px;
+  margin-top: 40px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_frst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_frst p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_scnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_scnd p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_thrd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_thrd p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_four p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_five p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_six {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_six p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_seven {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.container .main .prices_subs .business_benefits .benefit_business_seven p {
+  font-family: 'Inter';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-left: 12px;
+}
+
+.container .main .prices_subs .business button {
+  width: 181px;
+  height: 52px;
+  background: #e0edff;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #18216D;
+  border: none;
+  margin-left: 41px;
+  margin-top: 40px;
+}
+
+.container .main .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .main .testimonial_txt h2 {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+}
+
+.container .main .testimonial_txt p {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.9;
+  width: 614px;
+  margin-top: 55px;
+}
+
+.container .main .testimonial_txt h3 {
+  font-family: 'Inter';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 35px;
+}
+
+.container .main .testimonial_txt h4 {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.6;
+  margin-top: 6px;
+}
+
+.container .main .testimonial_img .outer_circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 1px black solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container .main .testimonial_img .outer_circle img {
+  position: absolute;
+}
+
+.container .main .testimonial_img .outer_circle .outer_img_one {
+  top: -30px;
+  left: 130px;
+}
+
+.container .main .testimonial_img .outer_circle .outer_img_two {
+  right: -30px;
+  top: 120px;
+}
+
+.container .main .testimonial_img .outer_circle .outer_img_three {
+  bottom: -30px;
+  left: 130px;
+}
+
+.container .main .testimonial_img .outer_circle .outer_img_four {
+  left: -30px;
+  top: 130px;
+}
+
+.container .main .testimonial_img .outer_circle .inner_circle {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.container .main .testimonial_img .outer_circle .inner_circle .inner_img_one {
+  left: 0;
+  top: 0;
+}
+
+.container .main .testimonial_img .outer_circle .inner_circle .inner_img_two {
+  right: 0;
+  top: 0;
+}
+
+.container .main .testimonial_img .outer_circle .inner_circle .inner_img_three {
+  bottom: 0;
+  right: 0;
+}
+
+.container .main .testimonial_img .outer_circle .inner_circle .inner_img_four {
+  left: 0;
+  bottom: 0;
+}
+
+.container .main footer {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 220px;
+}
+
+.container .main footer .footer_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .main footer .footer_main .frst_col .footer_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main footer .footer_main .frst_col .footer_logo p {
+  margin-left: 10px;
+  font-family: 'Inter';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+  width: 100px;
+}
+
+.container .main footer .footer_main .frst_col .col1_p {
+  width: 250px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-top: 19px;
+}
+
+.container .main footer .footer_main .frst_col .app_download {
+  margin-top: 20px;
+}
+
+.container .main footer .footer_main .frst_col .app_download :last-child {
+  margin-left: 12px;
+}
+
+.container .main footer .footer_main .scnd_col ul li {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 15px;
+}
+
+.container .main footer .footer_main .scnd_col ul :first-child {
+  font-family: 'Inter';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-top: 0;
+}
+
+.container .main footer .footer_main .thrd_col ul li {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 15px;
+}
+
+.container .main footer .footer_main .thrd_col ul :first-child {
+  font-family: 'Inter';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-top: 0;
+}
+
+.container .main footer .footer_main .fourth_col ul li {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #18216D;
+  margin-top: 15px;
+}
+
+.container .main footer .footer_main .fourth_col ul :first-child {
+  font-family: 'Inter';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  margin-top: 0;
+}
+
+.container .main footer .footer_main .fifth_col h2 {
+  font-family: 'Inter';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+}
+
+.container .main footer .footer_main .fifth_col p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18216D;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+
+.container .main footer .copyright {
+  margin: 0 auto;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #18216D;
+  opacity: 0.8;
+  margin-top: 90px;
+  padding: 58px;
+}
+/*# sourceMappingURL=style.css.map */
